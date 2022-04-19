@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!--  Meta  -->
+  <meta charset="UTF-8" />
+  <!--  Styles  -->
+  <link rel="stylesheet" href="styles/index.processed.css">
+  <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Gloria+Hallelujah&family=IBM+Plex+Serif:wght@100&family=Kanit:wght@100&family=Lato:wght@900&family=Lobster&family=Merriweather+Sans:wght@800&family=Montserrat:wght@900&family=Oswald:wght@700&family=Poppins:wght@500&family=Roboto:wght@100;900&family=Sarabun:wght@100;200&family=Squada+One&family=Work+Sans:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="CSS/style.css">
+  </head>
+  <body background="images/charity1.jpg" style="width: 100%;
+              height:100vh;
+              background-repeat: repeat-x;
+              background-size: 100% 100%;
+              position: relative;
+              opacity: 0.9;">
+  <style>
+    .main-header {
+  top: 0;
+}
+.col-md-6 button {
+  background-color:  #60bc0f;
+}
+form h1 {
+  font-weight: bold;
+  margin: 0;
+}
+
+.overlay-panel .overlay-right p {
+  font-size: 14px;
+  font-weight: 100;
+  line-height: 20px;
+  letter-spacing: 0.5px;
+  margin: 20px 0 30px;
+}
+.overlay-panel .overlay-right h1 {
+  color: #fd5f00;
+}
+form span {
+  font-size: 12px;
+}
+
+.social-container a {
+  color: #333;
+  font-size: 14px;
+  text-decoration: none;
+  margin: 15px 0;
+}
+
+form button {
+  border-radius: 20px;
+  border: 1px solid #FF4B2B;
+  background-color:  #0d1128;
+  color: #FFFFFF;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 12px 45px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: transform 80ms ease-in;
+}
+
+form {
+  background-color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 50px;
+  height: 100%;
+  text-align: center;
+}
+
+form input {
+  font-family: 'Poppins';
+  background-color: #eee;
+  color: #000;
+  border: none;
+  padding: 12px 15px;
+  margin: 8px 0;
+  width: 100%;
+  font-size: 15px;
+}
+
+.login-container {
+  padding-top: 20px;
+  margin-bottom: 10%;
+  margin-left: 25%;
+  margin-top: 7%;
+  background-color: #fff;
+  border-radius: 10px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  position: relative;
+  overflow: hidden;
+  width: 768px;
+  max-width: 100%;
+  min-height: 480px;
+}
+
+.form-container {
+  position: absolute;
+  top: 0;
+  height: 100%;
+}
+
+.log-in-container {
+  left: 0;
+  width: 50%;
+  z-index: 2;
+}
+
+
+.overlay-container {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 50%;
+  height: 100%;
+}
+
+.overlay {
+  background: #F6BE00;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 0;
+  color: #FFFFFF;
+  position: relative;
+  left: -100%;
+  height: 100%;
+  width: 200%;
+}
+
+.overlay-panel {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 40px;
+  text-align: center;
+  top: 0;
+  height: 100%;
+  width: 50%;
+}
+
+
+.overlay-right {
+  right: 0;
+}
+
+.social-container {
+  margin: 50px 0;
+}
+
+.social-container a {
+  border: 1px solid #DDDDDD;
+  border-radius: 50%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 5px;
+  height: 40px;
+  width: 40px;
+}
+  </style>
+  <header class="main-header">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg main-nav px-0">
+        <a class="navbar-brand" href="/mojo">
+      <img src="https://bootstrapious.com/i/snippets/sn-nav-logo/logo.png" width="45" alt="" class="d-inline-block align-middle mr-2">
+      <h3 >SEE</h3>
+          <h3 style="color: #fdc632">LIFE</h3>
+              </a>
+        <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#mainMenu" aria-controls="mainMenu" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="icon-bar icon-bar-1"></span>
+                        <span class="icon-bar icon-bar-2"></span>
+                        <span class="icon-bar icon-bar-3"></span>
+                    </button>
+        <div class="collapse navbar-collapse" id="mainMenu">
+          <ul class="navbar-nav ml-auto text-uppercase f1">
+            <li>
+              <a href="index.html" class="active active-first">home</a>
+            </li>
+            <li>
+              <a href="about.html" target="_blank">About</a>
+            </li>
+            <li>
+              <a href="causes.html" target="_blank">Causes</a>
+            </li>
+            <li>
+              <a href="events.html" target="_blank">Events</a>
+            </li>
+            <li>
+              <a href="blog.html" target="_blank">Blog</a>
+            </li>
+            <li>
+              <a href="contact.html" target="_blank">Contact</a>
+            </li>
+   
+          </ul>
+        </div>
+      </nav>
+    </div>
+</header>
+<div class="login-container" id="container">
+    <div class="form-container log-in-container">
+      <form action="#">
+        <h1>SIGN UP</h1>
+        <span>Get yourself registered!</span>
+        <br>
+        <input type="text" placeholder="First Name">
+        <input type="text" placeholder="Last Name">
+        <input type="email" placeholder="Email">
+        <input type="password" placeholder="Password">
+        <input type="password" placeholder="Confirm Password">
+        
+        <button class="btn btn-success donate-btn mt-2 p-2 pr-3 pl-3 ">Sign Up</button>
+      </form>
+    </div>
+    <div class="overlay-container">
+      <div class="overlay">
+        <div class="overlay-panel overlay-right">
+          <h1>SIGN UP TO DONATE</h1>
+          <p>Enter here and be a part of helping the hungry and homeless.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+     
+     <div class="mt-5 pt-5 pb-5 footer">
+<div class="container">
+  <div class="row">
+    <div class="col-lg-5 about-company">
+      <h2 class="text-center pr-5">Our Mission</h2>
+      <p class="pr-5 text-white-50 justify-content-left" style="line-height: 2rem;">So seed seed green that winged cattle in. Gathering thing made fly you're no divided <br>deep moved us lan Gathering thing us land years living.</p>
+    </div>
+    <div class="col-lg-3 col-xs-12 links">
+      <h4 class="mt-lg-0 mt-sm-3">Quick Links</h4>
+        <ul class="m-0 p-0">
+          <li><a href="index.html" target="_blank">Home</a></li>
+          <li><a href="donate.html" target="_blank">Donate us</a></li>
+          <li><a href="blog.html" target="_blank">Blogs</a></li>
+          <li><a href="causes.html" target="_blank">Causes</a></li>
+          <li><a href="events.html" target="_blank">Events</a></li>
+          <li><a href="contact.html" target="_blank">Contact us</a></li>
+        </ul>
+    </div>
+    <div class="col-lg-4 col-xs-12 location">
+      <h4 class="mt-lg-0 mt-sm-4 text-center">Location</h4>
+      <p>ABC road, Ali housing colony, Faisalabad</p>
+      <p class="mb-0"><i class="fa fa-phone mr-3"></i>(541) 754-3010</p>
+      <p><i class="fa fa-envelope-o mr-3"></i>noorkhokhar869@gmail.com</p>
+    </div>
+  </div>
+  <div class="row mt-5">
+    <div class="col copyright">
+      <p class=""><small class="text-white-50">© 2022. All Rights Reserved.</small></p>
+    </div>
+  </div>
+</div>
+</div>
+</section>
+</body>
+</html>
